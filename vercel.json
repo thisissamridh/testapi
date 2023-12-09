@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "src": "/combiner/quotaStatus",
+            "methods": [
+                "GET",
+                "OPTIONS"
+            ],
+            "headers": {
+                "Access-Control-Allow-Origin": "https://testapi-pni7hrkeb-thisissamridh.vercel.app",
+                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
+            }
+        }
+    ]
+}
